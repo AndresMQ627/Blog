@@ -7,14 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     protected $table="posts";
-    protected $fillable = [
-        'title',
-        'description',
-        'img',
-        'content',
-        'likes',
-        'slug',
-        'user_id',
-        'categorias_id'
+    protected $fileable=[
+    'title',
+    'description',
+    'img',
+    'content',
+    'likes',
+    'slug',
+    'user_id',
+    'categorie_id'
     ];
 }

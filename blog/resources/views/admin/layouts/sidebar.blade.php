@@ -1,4 +1,4 @@
- <!-- Sidebar -->
+<!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
@@ -14,22 +14,25 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="/dashboard">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-list-alt"></i>
+                <a class="nav-link" href="/dashboard/posts">
+                    <i class="fas fa-fw fa-list"></i>
                     <span>Posts</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-user-alt"></i>
+                <a class="nav-link" href="/dashboard/users">
+                    <i class="fas fa-fw fa-user"></i>
                     <span>Usuarios</span></a>
             </li>
+           
 
-        
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 

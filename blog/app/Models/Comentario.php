@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Comentario extends Model
 {
-    protected $table="comentarios";
-    protected $fillable = [
+    protected $filleable=[
         'post_id',
         'content'
     ];
